@@ -130,9 +130,9 @@ ai-wordle/
 
 ## 👥 Team Members
 
-  - **Your Name** – Lead Developer
-  - **Collaborator 1** – AI & Heuristic Specialist
-  - **Collaborator 2** – UI & Batch Testing
+  - **Dishank Vyas**
+  - **Krishna Shetty** 
+  - **Pal Soni** 
 
 -----
 
