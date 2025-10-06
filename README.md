@@ -101,23 +101,6 @@ compare_solvers(['entropy', 'minimax', 'hybrid'])
 
 -----
 
-## 🏗️ Project Structure
-
-```
-ai-wordle/
-│
-├── wordle_ai.py          # Main script with Gradio UI & game logic
-├── wordlist.txt          # 5-letter word list
-├── heuristics.py         # AI heuristic algorithms
-├── batch_test.py         # Batch testing utilities
-├── requirements.txt      # Python dependencies
-├── README.md             # Project documentation
-└── docs/
-    └── demo_screenshot.png
-```
-
------
-
 ## 🔮 Future Enhancements
 
   - Multiplayer Wordle challenges
