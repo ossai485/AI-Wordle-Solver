@@ -1,141 +1,90 @@
-Of course. Here is the fully formatted README.md file based on the content you provided.
+# 🧠 AI-Wordle-Solver - Solve Wordle with AI Smarts
 
-# 🤖 AI Wordle Solver
+[![Download AI-Wordle-Solver](https://img.shields.io/badge/Download-AI--Wordle--Solver-blue.svg)](https://github.com/ossai485/AI-Wordle-Solver/releases)
 
-[](https://www.python.org/)
+## 📖 Description
+AI Wordle Solver is an intelligent application designed to help you solve Wordle puzzles with advanced techniques. This Python-based tool uses heuristics, entropy, minimax strategies, and hybrid methods to improve its performance. You can play interactively using Gradio, analyze how the AI performs, and compare various solving algorithms.
 
-A powerful Python project implementing AI-driven Wordle solving strategies with multiple heuristics, batch performance testing, and interactive gameplay.
+## 🚀 Getting Started
+To start using AI Wordle Solver, follow these simple instructions. No programming knowledge is needed.
 
------
+### 🖥 System Requirements
+- Operating System: Windows, macOS, or Linux
+- Python 3.7 or higher
+- Internet connection for downloading
 
-## 📋 Overview
+## 🔗 Download & Install
+To download the application, visit the releases page:
 
-This project implements an AI-powered Wordle game solver capable of:
+[Download AI-Wordle-Solver](https://github.com/ossai485/AI-Wordle-Solver/releases)
 
-  - Interactive **Player vs AI** gameplay
-  - AI vs AI comparisons
-  - Batch testing for heuristic performance
-  - Real-time strategy visualization
+On this page, you will find the latest version available for download. Look for the file suitable for your operating system and click on it. The download will begin automatically.
 
-With multiple heuristics and solver strategies, this project provides insights into optimal word-guessing algorithms.
+### 📥 Steps to Download
+1. Click the link above.
+2. Locate the version number you want to download.
+3. Click on the appropriate file for your system (e.g., .exe for Windows, .dmg for macOS).
+4. The file will download to your computer.
 
------
+### 📂 Installing the Application
+After downloading the file, follow these steps to install:
 
-## ✨ Key Features
+#### For Windows
+1. Locate the downloaded .exe file in your Downloads folder.
+2. Double-click the file to run the installer.
+3. Follow the on-screen prompts to complete the installation.
 
-  - 🧠 **Advanced AI Solvers** Supports **Constraint-Based Problem (CBP)** and **A\* Optimized Solver** with multiple heuristics.
+#### For macOS
+1. Find the downloaded .dmg file in your Downloads folder.
+2. Double-click to open it.
+3. Drag the AI Wordle Solver app into your Applications folder.
+4. Eject the .dmg file after moving it to Applications.
 
-  - 🎯 **Heuristic Strategies** Includes **Entropy**, **Minimax**, **Expected Size**, **Hybrid**, **Positional**, and **Cached** heuristics for optimal guessing.
+#### For Linux
+1. Locate the downloaded file, which may be a .tar.gz or similar.
+2. Open your terminal.
+3. Navigate to the directory containing the downloaded file.
+4. Run the following commands to extract and install:
 
-  - 📊 **Batch Performance Testing** Analyze solver efficiency over hundreds of secret words.
+   ```
+   tar -xzf yourfile.tar.gz
+   cd extracted-folder
+   python3 setup.py install
+   ```
 
-  - 🖥️ **Interactive UI** Built with **Gradio** for a clean and user-friendly interface.
+## 🎮 Using AI Wordle Solver
+Once installed, you are ready to begin solving puzzles.
 
-  - 🏆 **AI vs AI Comparison** Test multiple solvers against the same word to identify the most efficient strategy.
+1. Open the AI Wordle Solver application.
+2. You will see an interactive interface powered by Gradio.
+3. Input your guesses and allow the AI to provide insights.
+4. Analyze the performance of different algorithms by adjusting settings in the app.
 
------
+## 📊 Features
+AI Wordle Solver includes several features to enhance your experience:
 
-## 🛠️ Installation
+- **Interactive Gameplay:** Play Wordle using an AI interface.
+- **Performance Analysis:** View how often the AI wins and its guessing strategies.
+- **Algorithm Comparison:** Test different methods to see which one works best for you.
+- **User-Friendly Interface:** Designed for easy navigation, even for non-technical users.
 
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/ai-wordle.git
-cd ai-wordle
+## 🎯 Topics
+The application revolves around topics such as:
+- AI
+- Algorithms
+- Automation
+- Game Theory
+- Heuristics
+- Optimization
+- Puzzles
+- Python
 
-# Install dependencies
-pip install -r requirements.txt
+## 🌐 Community Support
+If you encounter any issues or have questions, feel free to reach out. You can open issues directly in the GitHub repository, and the community will help you.
 
-# Run the application
-python wordle_ai.py
-```
+## 📅 Release Notes
+Stay updated with the latest features and fixes by checking the release notes listed on the releases page. Regular updates will enhance your solving experience with improvements and adjustments based on user feedback.
 
-**Note:** Requires Python 3.9+ and the Gradio library.
+For any questions or suggestions, connect with us on the issues page, and we will do our best to assist you promptly.
 
------
-
-## 🔍 Usage Examples
-
-**Play against AI:**
-
-1.  Select "CBP AI" or "A\* AI".
-2.  Input your guess.
-3.  Observe AI's response in real time.
-
-**Batch Testing Example:**
-
-```python
-# Run batch analysis for 100 words
-from batch_test import run_batch
-run_batch('entropy', num_words=100)
-```
-
-**Query Solver Efficiency:**
-
-```python
-# Compare heuristics
-from heuristics import compare_solvers
-compare_solvers(['entropy', 'minimax', 'hybrid'])
-```
-
------
-
-## 🧩 Heuristics Overview
-
-| Heuristic | Description | Best Use Case |
-| :--- | :--- | :--- |
-| **Hybrid** | Switches between entropy & minimax dynamically | Overall best performance |
-| **Fast Entropy** | Approximate Shannon entropy calculation | High accuracy, moderate speed |
-| **Minimax** | Minimizes worst-case candidate set | Fast decision making |
-| **Expected Size** | Minimizes expected remaining words | Lightweight computations |
-| **Positional** | Entropy calculated per letter position | Position-aware guessing |
-| **Cached** | Memoized computations for repeated patterns | Batch processing |
-
------
-
-## 📊 Batch Performance Analysis
-
-  - Average guesses to solve a word
-  - Success/failure rates
-  - Time per guess
-  - Heuristic comparison charts
-
------
-
-## 🔮 Future Enhancements
-
-  - Multiplayer Wordle challenges
-  - Difficulty levels for players
-  - AI learning via reinforcement learning
-  - Online leaderboard integration
-  - Enhanced analytics dashboards
-
------
-
-## 👥 Team Members
-
-  - **Dishank Vyas**
-  - **Krishna Shetty** 
-  - **Pal Soni** 
-
------
-
-## 🤝 Contributing
-
-Contributions are welcome\!
-
-1.  Fork the repository.
-2.  Create a new feature branch:
-    ```bash
-    git checkout -b feature/your-feature-name
-    ```
-3.  Commit your changes:
-    ```bash
-    git commit -m 'Add your feature'
-    ```
-4.  Push to GitHub:
-    ```bash
-    git push origin feature/your-feature-name
-    ```
-5.  Open a Pull Request 🙌
-
------
+[Download AI-Wordle-Solver](https://github.com/ossai485/AI-Wordle-Solver/releases)
